@@ -1,0 +1,91 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+
+<div class="text-center">
+    <ul id="options">
+        <li class="active" id="I">Fotos</li>
+        <li id="V">Vídeos</li>
+        <li id="M">Músicas</li>
+        <li id="D">Documentos</li>
+    </ul>
+
+    <form method="post" enctype="multipart/form-data" id="formArquivo" asp-controller="Home" asp-action="UploadFile">
+        <div class="custom-file">
+            <input type="file" class="custom-file-input" id="customFile" title="Escolher" name="files">
+            <label class="custom-file-label" for="customFile">Nenhum arquivo selecionado</label>
+        </div>
+
+        <div class="form-control">
+            <input type="submit" class="btn btn-primary" value="Enviar" />
+        </div>
+    </form>
+
+    <div class="col col-sm-12" id="divFiles">
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(".custom-file-input").on("change", function () {
+        var fileName = $(this).val().split("\\").pop();
+        $(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+    });
+
+    $("#options li").click(function () {
+        $("#options li").removeClass("active")
+        $(this).addClass("active")
+        BuscaArquivos();
+    })
+
+    function BuscaArquivos() {
+
+        $("#divFiles").html("");
+
+        $.get({
+            url: "/Home/ListFiles/",
+            data: { tipo: $("li.active").prop("id") },
+            success: function (files) {
+                for (i in files) {
+                    if ($("li.active").prop("id") == "I") {
+                        $("#divFiles").append(
+                            $("<div>").append(
+                                $("<img>").prop("src", files[i]).attr("height", "120")
+                            ).addClass("col col-sm-3")
+                        )
+                    }
+                    else if ($("li.active").prop("id") == "V") {
+                        $("#divFiles").append(
+                            $("<div>").append(
+                                $("<video>").prop("src", files[i]).attr("height", "120")
+                            ).addClass("col col-sm-3")
+                        )
+                    }
+                    else if ($("li.active").prop("id") == "D") {
+                        $("#divFiles").append(
+                            $("<div>").append(
+                                $("<span>").addClass("oi oi-document").html(files[i].replace("/files/document/", ""))
+                            ).addClass("col col-sm-3")
+                        )
+                    }
+                    else if ($("li.active").prop("id") == "M") {
+                        $("#divFiles").append(
+                            $("<div>").append(
+                                $("<audio>").append(
+                                    $("<source>").prop("src", files[i]).prop("type", "audio/mpeg")
+                                ).prop("controls","true")
+                            ).addClass("col col-sm-3")
+                        )
+                    }
+                }
+
+            }
+        })
+    }
+
+    BuscaArquivos();
+
+</script>

@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\files\image\" />
+    <Folder Include="wwwroot\files\music\" />
+    <Folder Include="wwwroot\files\document\" />
+    <Folder Include="wwwroot\files\video\" />
+  </ItemGroup>
+
+
+
+</Project>
