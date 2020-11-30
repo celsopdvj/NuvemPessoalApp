@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using MongoDB.Driver;
 using NuvemPessoalApp.Models;
 
 namespace NuvemPessoalApp.Controllers
@@ -71,8 +72,9 @@ namespace NuvemPessoalApp.Controllers
 
                 string nomeArquivo = file.FileName;
                 string pasta = "";
+                string ext = new FileInfo(file.FileName).Extension.ToLower();
 
-                switch (new FileInfo(file.FileName).Extension.ToLower())
+                switch (ext)
                 {
                     case ".png":
                     case ".jpeg":
@@ -101,9 +103,30 @@ namespace NuvemPessoalApp.Controllers
 
                 using var stream = new FileStream(caminhoDestinoArquivoOriginal, FileMode.Create);
                 await file.CopyToAsync(stream);
+
+
+                var client = new MongoClient("mongodb://localhost:27017/?readPreference=primary&ssl=false");
+                var database = client.GetDatabase("nuvem");
+                var _files = database.GetCollection<Files>("files");
+
+                _files.InsertOne(new Files
+                {
+                    nome = nomeArquivo.Replace(ext, ""),
+                    caminho_original = caminhoDestinoArquivoOriginal,
+                    caminho_local = caminhoDestinoArquivo,
+                    extensao = ext
+                });
             }
 
             return RedirectToAction("Index");
         }
+    }
+
+    class Files
+    {
+        public string nome;
+        public string caminho_original;
+        public string caminho_local;
+        public string extensao;
     }
 }
