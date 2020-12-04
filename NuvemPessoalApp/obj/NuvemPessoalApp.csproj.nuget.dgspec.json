@@ -1,36 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vitorhugo.miranda\\Desktop\\NuvemPessoalApp-master\\NuvemPessoalApp\\NuvemPessoalApp.csproj": {}
+    "/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/NuvemPessoalApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vitorhugo.miranda\\Desktop\\NuvemPessoalApp-master\\NuvemPessoalApp\\NuvemPessoalApp.csproj": {
+    "/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/NuvemPessoalApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vitorhugo.miranda\\Desktop\\NuvemPessoalApp-master\\NuvemPessoalApp\\NuvemPessoalApp.csproj",
+        "projectUniqueName": "/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/NuvemPessoalApp.csproj",
         "projectName": "NuvemPessoalApp",
-        "projectPath": "C:\\Users\\vitorhugo.miranda\\Desktop\\NuvemPessoalApp-master\\NuvemPessoalApp\\NuvemPessoalApp.csproj",
-        "packagesPath": "C:\\Users\\vitorhugo.miranda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vitorhugo.miranda\\Desktop\\NuvemPessoalApp-master\\NuvemPessoalApp\\obj\\",
+        "projectPath": "/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/NuvemPessoalApp.csproj",
+        "packagesPath": "/home/kitsune/.nuget/packages/",
+        "outputPath": "/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\vitorhugo.miranda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/home/kitsune/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -42,7 +35,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Microsoft.VisualStudio.Web.BrowserLink": {
               "target": "Package",
@@ -71,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.404/RuntimeIdentifierGraph.json"
         }
       }
     }

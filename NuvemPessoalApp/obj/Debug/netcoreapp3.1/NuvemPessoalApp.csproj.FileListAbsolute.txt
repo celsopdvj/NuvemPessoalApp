@@ -1,47 +1,94 @@
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\appsettings.Development.json
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.exe
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.deps.json
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.runtimeconfig.json
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.runtimeconfig.dev.json
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.pdb
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.Views.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\NuvemPessoalApp.Views.pdb
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\DnsClient.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.BrowserLink.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\SharpCompress.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.csprojAssemblyReference.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.AssemblyInfoInputs.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.AssemblyInfo.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.csproj.CoreCompileInputs.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.RazorAssemblyInfo.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.RazorAssemblyInfo.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\staticwebassets\NuvemPessoalApp.StaticWebAssets.Manifest.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\staticwebassets\NuvemPessoalApp.StaticWebAssets.xml
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\scopedcss\bundle\NuvemPessoalApp.styles.css
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.TagHelpers.input.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.TagHelpers.output.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.RazorCoreGenerate.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.RazorTargetAssemblyInfo.cache
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.RazorTargetAssemblyInfo.cs
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.Views.pdb
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.csproj.CopyComplete
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.dll
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.pdb
-C:\Users\vitorhugo.miranda\Desktop\NuvemPessoalApp-master\NuvemPessoalApp\obj\Debug\netcoreapp3.1\NuvemPessoalApp.genruntimeconfig.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/appsettings.Development.json
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/appsettings.json
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.exe
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.deps.json
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.runtimeconfig.json
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.runtimeconfig.dev.json
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.pdb
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.Views.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.Views.pdb
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/DnsClient.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.BrowserLink.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Bson.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Driver.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Driver.Core.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Libmongocrypt.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/SharpCompress.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/runtimes/win/native/libzstd.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.csprojAssemblyReference.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.AssemblyInfoInputs.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.AssemblyInfo.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.csproj.CoreCompileInputs.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.MvcApplicationPartsAssemblyInfo.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorAssemblyInfo.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorAssemblyInfo.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/staticwebassets/NuvemPessoalApp.StaticWebAssets.Manifest.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/staticwebassets/NuvemPessoalApp.StaticWebAssets.xml
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/scopedcss/bundle/NuvemPessoalApp.styles.css
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.TagHelpers.input.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.TagHelpers.output.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorCoreGenerate.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorTargetAssemblyInfo.cache
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorTargetAssemblyInfo.cs
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.Views.pdb
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.csproj.CopyComplete
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.dll
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.pdb
+C:/Users/vitorhugo.miranda/Desktop/NuvemPessoalApp-master/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.genruntimeconfig.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/appsettings.Development.json
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/appsettings.json
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.deps.json
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.runtimeconfig.json
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.runtimeconfig.dev.json
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.pdb
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.Views.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/NuvemPessoalApp.Views.pdb
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/DnsClient.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/Microsoft.VisualStudio.Web.BrowserLink.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Bson.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Driver.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Driver.Core.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/MongoDB.Libmongocrypt.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/SharpCompress.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/runtimes/win/native/libzstd.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy32.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/bin/Debug/netcoreapp3.1/runtimes/win/native/snappy64.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.csprojAssemblyReference.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.AssemblyInfoInputs.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.AssemblyInfo.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.csproj.CoreCompileInputs.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.MvcApplicationPartsAssemblyInfo.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorAssemblyInfo.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorAssemblyInfo.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.TagHelpers.input.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.TagHelpers.output.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorCoreGenerate.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Error.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorTargetAssemblyInfo.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.RazorTargetAssemblyInfo.cs
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.Views.pdb
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.csproj.CopyComplete
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/staticwebassets/NuvemPessoalApp.StaticWebAssets.Manifest.cache
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/staticwebassets/NuvemPessoalApp.StaticWebAssets.xml
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.dll
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.pdb
+/home/kitsune/Área de Trabalho/app/NuvemPessoalApp/obj/Debug/netcoreapp3.1/NuvemPessoalApp.genruntimeconfig.cache

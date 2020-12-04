@@ -40,7 +40,7 @@ namespace NuvemPessoalApp.Controllers
             };
 
             string caminho_WebRoot = _appEnvironment.WebRootPath;
-            string caminhoDestinoArquivo = caminho_WebRoot + "\\files\\" + pasta + "\\";
+            string caminhoDestinoArquivo = caminho_WebRoot + "/files/" + pasta + "/";
 
             List<string> arquivos = new List<string>();
 
@@ -58,7 +58,7 @@ namespace NuvemPessoalApp.Controllers
             string name = splited[1];
             string pasta = splited[0];
             string caminho_WebRoot = _appEnvironment.WebRootPath;
-            string caminhoDestinoArquivo = caminho_WebRoot + "\\files\\" + pasta + "\\" + name ;
+            string caminhoDestinoArquivo = caminho_WebRoot + "/files/" + pasta + "/" + name ;
 
             System.IO.File.Delete(caminhoDestinoArquivo); 
 
@@ -111,14 +111,14 @@ namespace NuvemPessoalApp.Controllers
                 }
 
                 string caminho_WebRoot = _appEnvironment.WebRootPath;
-                string caminhoDestinoArquivo = caminho_WebRoot + "\\files\\" + pasta + "\\";
+                string caminhoDestinoArquivo = caminho_WebRoot + "/files/" + pasta + "/";
                 string caminhoDestinoArquivoOriginal = caminhoDestinoArquivo + nomeArquivo;
 
                 using var stream = new FileStream(caminhoDestinoArquivoOriginal, FileMode.Create);
                 await file.CopyToAsync(stream);
 
 
-                var client = new MongoClient("mongodb://localhost:27017/?readPreference=primary&ssl=false");
+                var client = new MongoClient("mongodb://172.17.0.1:27017/?readPreference=primary&ssl=false");
                 var database = client.GetDatabase("nuvem");
                 var _files = database.GetCollection<Files>("files");
 
