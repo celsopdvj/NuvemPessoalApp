@@ -52,6 +52,19 @@ namespace NuvemPessoalApp.Controllers
             return Json(arquivos.ToArray());
         }
 
+        public JsonResult DeleteFile(string fileName)
+        {
+            string[] splited = fileName.Split('/');
+            string name = splited[1];
+            string pasta = splited[0];
+            string caminho_WebRoot = _appEnvironment.WebRootPath;
+            string caminhoDestinoArquivo = caminho_WebRoot + "\\files\\" + pasta + "\\" + name ;
+
+            System.IO.File.Delete(caminhoDestinoArquivo); 
+
+            return Json(caminhoDestinoArquivo);
+        }
+
         public IActionResult Privacy()
         {
             return View();

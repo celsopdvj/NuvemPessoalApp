@@ -6,10 +6,15 @@
 <script src="https://kit.fontawesome.com/e8c980eeff.js" crossorigin="anonymous"></script>
 
 <style type="text/css">
+    .page {
+        display: flex; 
+    }
+
     .sidenav {
-        height: 100%;
-        width: 250px;
-        position: fixed;
+        height: 100vh;
+        width: 22vw;
+        max-width: 353px;
+        min-width: 234px;
         z-index: 1;
         top: 0;
         left: 0;
@@ -17,36 +22,37 @@
         overflow-x: hidden;
         transition: 0.5s;
         text-align: left;
+        display: block;
     }
 
-        .sidenav a {
-            padding: 8px 8px 8px 32px;
-            text-decoration: none;
-            font-size: 20px;
-            color: white;
-            display: block;
-            transition: 0.3s;
-        }
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        display: block;
+        transition: 0.3s;
+    }
 
-            .sidenav a:hover {
-                color: #17a0a8;
-            }
+    .sidenav a:hover {
+        color: #17a0a8;
+    }
 
-            .sidenav a.active {
-                background-color: #17a0a8;
-            }
+    .sidenav a.active {
+        background-color: #17a0a8;
+    }
 
-        .sidenav .closebtn {
-            font-size: 26px;
-            padding-left: 8px;
-            color: white;
-            background-color: grey;
-            height: 60px;
-            margin-bottom: 12px;
-            text-align: center;
-            padding-top: 10px;
-            vertical-align: central;
-        }
+    .sidenav .closebtn {
+        font-size: 26px;
+        padding-left: 8px;
+        color: white;
+        background-color: grey;
+        height: 60px;
+        margin-bottom: 12px;
+        text-align: center;
+        padding-top: 10px;
+        vertical-align: central;
+    }
 
     .nomeImg {
         text-align: center;
@@ -67,13 +73,13 @@
             padding-top: 15px;
         }
 
-            .sidenav a {
-                font-size: 18px;
-            }
+        .sidenav a {
+            font-size: 18px;
+        }
     }
 </style>
 
-<div class="text-center">
+<div class="page text-center">
     <div id="options" class="sidenav">
         <div class="closebtn">
             <span>
@@ -86,27 +92,26 @@
         <a href="#" id="D"><i class="fas fa-file-word"></i>Documentos</a>
     </div>
 
+    <div class="container conteudo">
+        <div class="row mt-2">
 
-    <div class="row mt-2">
+            <div class="col col-11">
+                <form method="post" enctype="multipart/form-data" id="formArquivo" asp-controller="Home" asp-action="UploadFile">
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="customFile" title="Escolher" name="files">
+                        <label class="custom-file-label" for="customFile">Nenhum arquivo selecionado</label>
+                    </div>
 
-        <div class="col col-11">
-            <form method="post" enctype="multipart/form-data" id="formArquivo" asp-controller="Home" asp-action="UploadFile">
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="customFile" title="Escolher" name="files">
-                    <label class="custom-file-label" for="customFile">Nenhum arquivo selecionado</label>
-                </div>
+                </form>
+            </div>
 
-            </form>
+            <div class="col col-1">
+                <input type="button" onclick="$('#formArquivo').submit()" class="btn btn-primary" value="Enviar" />
+            </div>
+
         </div>
 
-        <div class="col col-1">
-            <input type="button" onclick="$('#formArquivo').submit()" class="btn btn-primary" value="Enviar" />
-        </div>
-
-    </div>
-
-    <div class="row mt-4" id="divFiles">
-
+        <div class="row mt-4" id="divFiles" style="margin-left:2%"></div>
     </div>
 </div>
 
@@ -122,6 +127,13 @@
         BuscaArquivos();
     })
 
+    async function excluir(fileName) {
+        let response = await $.get({
+            url: `/Home/DeleteFile?fileName=${fileName}`
+        }); 
+        window.location.reload(false); 
+    }
+
     function BuscaArquivos() {
 
         $("#divFiles").html("");
@@ -132,6 +144,7 @@
             success: function (files) {
                 for (i in files) {
                     if ($("a.active").prop("id") == "I") {
+                        const fileName = files[i].replace("/files/image/", ""); 
                         $("#divFiles").append(
 
                             $("<div>")
@@ -141,6 +154,10 @@
                                         .addClass("row")
                                         .append(
                                             $("<div>").append(
+                                                `<a href="files/image/${fileName}" download><img border="0" alt="Baixar" src="download.png" width="25" height="25"></a>
+                                                <input type="image" src="lixeira.png" onClick="excluir('image/${fileName}')" width="22" height="22">`
+                                            )
+                                            .append(
                                                 $("<div>").append(
                                                     $("<img>").prop("src", files[i]).attr("height", "120")
                                                 ).addClass("col col-12")
@@ -155,7 +172,7 @@
                         )
                     }
                     else if ($("a.active").prop("id") == "V") {
-
+                        const fileName = files[i].replace("/files/video/", ""); 
                         $("#divFiles").append(
 
                             $("<div>")
@@ -165,6 +182,10 @@
                                         .addClass("row")
                                         .append(
                                             $("<div>").append(
+                                                `<a href="files/video/${fileName}" download><img border="0" alt="Baixar" src="download.png" width="25" height="25"></a>
+                                                <input type="image" src="lixeira.png" onClick="excluir('video/${fileName}')" width="22" height="22">`
+                                            )
+                                            .append(
                                                 $("<div>").append(
                                                     $("<video>").prop("src", files[i]).attr("height", "120")
                                                 ).addClass("col col-12")
@@ -179,7 +200,7 @@
                         )
                     }
                     else if ($("a.active").prop("id") == "D") {
-
+                        const fileName = files[i].replace("/files/document/", ""); 
                         $("#divFiles").append(
 
                             $("<div>")
@@ -197,13 +218,17 @@
                                 )
                                 .append(
                                     $("<div>").append(
+                                        `<a href="files/document/${fileName}" download><img border="0" alt="Baixar" src="download.png" width="25" height="25"></a>
+                                         <input type="image" src="lixeira.png" onClick="excluir('document/${fileName}')" width="22" height="22">`
+                                    )
+                                    .append(
                                         $("<span>").html(files[i].replace("/files/document/", ""))
                                     ).addClass("row col-12 nomeImg")
                                 )
                         )
                     }
                     else if ($("a.active").prop("id") == "M") {
-
+                        const fileName = files[i].replace("/files/music/", ""); 
                         $("#divFiles").append(
 
                             $("<div>")
@@ -223,6 +248,10 @@
                                 )
                                 .append(
                                     $("<div>").append(
+                                        `<a href="files/music/${fileName}" download><img border="0" alt="Baixar" src="download.png" width="25" height="25"></a>
+                                         <input type="image" src="lixeira.png" onClick="excluir('music/${fileName}')" width="22" height="22">`
+                                    )
+                                    .append(
                                         $("<span>").html(files[i].replace("/files/music/", ""))
                                     ).addClass("row col-12 nomeImg")
                                 )
